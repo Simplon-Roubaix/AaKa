@@ -102,16 +102,62 @@ textarea {
 /* ##################################################################### */
 /* ##########################   SMARTPHONE   ########################### */
 /* ##################################################################### */
-.nav-item {
-  text-align: center;
+section{
+  background-color: #C2B7B7;
+  /*padding-top: 2%;*/
+  padding-bottom: 2%;
 }
+
+.containers {
+  margin: 10% 25% ;
+}
+
+section h1 {
+  text-align: center;
+  color: #fff;
+}
+
+
+
+.containers .img-fluid{
+  visibility: hidden;
+  width: 2px;
+  height: 2px;
+  }
+
+
 
 
 /* ##################################################################### */
 /* ############################   TABLETS   ############################ */
 /* ##################################################################### */
+@media screen and (min-width: 1240px ) {
 
+  .containers{
+    display: flex;
+    margin: 10% 25% 0% 25%;
+    margin-bottom: 10px;
+    background-color: #655F5F;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+  }
 
+.containers .img-fluid{
+  margin-left: 20%;
+  visibility: visible;
+  width: 1191px;
+  height: 511px;
+  }
+
+  .containers p{
+    padding-top: 2%;
+    margin-left: 2%;
+    display: inline-block;
+    color: #fff;
+  }
+
+}
 
 /* ##################################################################### */
 /* ############################   DESKTOPS   ########################### */
