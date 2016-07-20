@@ -125,6 +125,21 @@ section h1 {
   height: 2px;
   }
 
+.site{
+  margin-left: 47%;
+}
+  section ul{
+    margin-left: 44%;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  .listesite {
+    visibility: hidden;
+  }
+
 
 
 
@@ -155,6 +170,14 @@ section h1 {
     margin-left: 2%;
     display: inline-block;
     color: #fff;
+  }
+
+  .site{
+    margin-left: 47%;
+  }
+
+  .listesite {
+    visibility: visible;
   }
 
 }
