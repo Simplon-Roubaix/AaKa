@@ -125,20 +125,17 @@ section h1 {
   height: 2px;
   }
 
-.site{
-  margin-left: 47%;
-}
-  section ul{
-    margin-left: 44%;
+  .site{
+    margin-left: 40px;
   }
 
   ul{
     list-style: none;
   }
 
-  .listesite {
+  /*.listesite {
     visibility: hidden;
-  }
+  }*/
 
 
 
@@ -179,6 +176,11 @@ section h1 {
   .listesite {
     visibility: visible;
   }
+
+  section ul{
+    margin-left: 44%;
+  }
+
 
 }
 
