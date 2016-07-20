@@ -354,8 +354,17 @@ section h1 {
     }
 }
 
+/*page contact*/
 
+/*couleur du font */
+ul li{
+    font-style: bold;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
 
+}
 
 
 
@@ -539,10 +548,7 @@ section h1 {
 
 
 
-
-
-
-
+/*css of footer*/
 .full {
     width: 100%;
 }
